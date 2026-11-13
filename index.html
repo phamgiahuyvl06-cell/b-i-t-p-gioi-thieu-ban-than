@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân - Phạm Gia Huy</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            line-height: 1.6;
+        }
+
+        h1 { color: #2c3e50; text-align: center; margin-bottom: 5px; }
+        h3 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+
+        .avatar-container { text-align: center; margin: 20px 0; }
+        .avatar {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #3498db;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .intro { text-align: center; font-size: 1.1em; color: #555; }
+
+        ul { list-style-type: none; padding: 0; }
+        ul li {
+            background: #e8f4f8;
+            margin: 8px 0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+
+        table { border-collapse: collapse; width: 100%; margin-top: 15px; }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #3498db; color: white; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        tr:hover { background-color: #f1f1f1; }
+
+        .social-link {
+            display: inline-block;
+            background-color: #1877f2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .social-link:hover { background-color: #145dbf; transform: translateY(-2px); }
+        .social-container { text-align: center; margin-bottom: 20px; }
+
+        /* === CSS CHO NÚT GITHUB === */
+        .github-container {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .github-link {
+            display: inline-block;
+            background-color: #24292e;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.3s;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+        .github-link:hover {
+            background-color: #444d56;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+        .demo-link { background-color: #28a745; }
+        .demo-link:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+
+    <h1>Phạm Gia Huy</h1>
+
+    <div class="avatar-container">
+        <!-- Nhớ đảm bảo file ảnh của bạn tên là avatar.jpg và nằm cùng thư mục -->
+        <img src="avatar.jpg" alt="Ảnh đại diện của Phạm Gia Huy" class="avatar">
+    </div>
+
+    <p class="intro">Xin chào! Mình là <strong>Phạm Gia Huy</strong>, một người yêu thích <em>công nghệ và lập trình</em>.</p>
+
+    <h3>Sở thích của mình</h3>
+    <ul>
+        <li>💻 Lập trình web</li>
+        <li>🎮 Chơi game</li>
+        <li>🎵 Nghe nhạc</li>
+        <li>📚 Đọc sách công nghệ</li>
+    </ul>
+
+    <h3>Thời khoá biểu</h3>
+    <table>
+        <tr><th>Thứ</th><th>Môn học</th><th>Giờ</th></tr>
+        <tr><td>Thứ 2</td><td>Toán</td><td>7:00 - 9:00</td></tr>
+        <tr><td>Thứ 3</td><td>Lập trình Web</td><td>9:00 - 11:00</td></tr>
+        <tr><td>Thứ 4</td><td>Tiếng Anh</td><td>7:00 - 9:00</td></tr>
+        <tr><td>Thứ 5</td><td>Cơ sở dữ liệu</td><td>9:00 - 11:00</td></tr>
+        <tr><td>Thứ 6</td><td>Mạng máy tính</td><td>7:00 - 9:00</td></tr>
+    </table>
+
+    <h3>Kết nối với mình</h3>
+    <div class="social-container">
+        <a href="https://www.facebook.com/share/1J6eziKiJU/" target="_blank" class="social-link">
+            📘 Facebook của Phạm Gia Huy
+        </a>
+    </div>
+
+    <!-- === LIÊN KẾT GITHUB ĐÃ ĐƯỢC SỬA CHÍNH XÁC === -->
+    <h3>Liên kết bài tập</h3>
+    <div class="github-container">
+        <a href="https://github.com/phamgiahuy06-cell/b-i-t-p-gioi-thieu-ban-than" 
+           target="_blank" class="github-link">
+            💻 Source Code (GitHub)
+        </a>
+        
+        <a href="https://phamgiahuy06-cell.github.io/b-i-t-p-gioi-thieu-ban-than/" 
+           target="_blank" class="github-link demo-link">
+            🌐 Xem kết quả (Demo)
+        </a>
+    </div>
+
+</body>
+</html>
